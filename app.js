@@ -5,7 +5,7 @@ var http = require('http').Server(app);
 // load socket server module
 var io = require('socket.io')(http);
 // set default server port
-var port = process.env.PORT || 9090;
+var port = process.env.PORT || 9000;
 
 // set client index url (view)
 app.get('/', function(req, res){
