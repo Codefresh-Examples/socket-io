@@ -10,6 +10,7 @@ The example show you a simple implementation of chat app using sockets
 
 Start chatting
 
+
 ## App run
 
 Click on the 'Play' button at the top toolbar.
