@@ -3,7 +3,7 @@ version: '1.0'
 steps:
   clone-prj:
     type: git-clone
-    repo: https://github.com/Codefresh-Examples/express-angular.git
+    repo: https://github.com/Codefresh-Examples/socket-io.git
 
   build-prj:
     type: build
