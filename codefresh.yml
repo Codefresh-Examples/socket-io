@@ -7,3 +7,8 @@ steps:
     image-name: codefreshexamples/socketio
     dockerfile: Dockerfile
     tag: latest
+
+   push-dockerhub:
+      type: push
+      candidate: ${{build-prj}}
+      tag: latest
